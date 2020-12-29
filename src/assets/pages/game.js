@@ -1,7 +1,7 @@
 const Game = () => {
     return (
-        <div>
-            <p>Game</p>
+        <div id="root-game">
+            
         </div>
     )
 }
