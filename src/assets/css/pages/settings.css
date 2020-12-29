@@ -1,3 +1,16 @@
 #root-settings {
     padding: 2rem;
 }
+
+#root-settings h1, 
+#root-settings h2 {
+    margin: 1.5rem 0;
+}
+
+#root-settings .text p {
+    margin: 0 0 1rem 0;
+}
+
+#root-settings .text p:last-child {
+    margin: 0;
+}

@@ -5,7 +5,7 @@ const About = () => {
         <div id="root-about">
             <Link to="/">
                 <button className="primary-background back-button">
-                    <i class="fas fa-arrow-left"></i>
+                    <i className="fas fa-arrow-left"></i>
                 </button>
             </Link>
             <h1 className="primary-color title">About</h1>
