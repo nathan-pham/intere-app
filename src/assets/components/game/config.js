@@ -3,9 +3,10 @@ const height = window.innerHeight
 const version = 1
 
 const defaultSettings = {
-    population: 100,
-    showDead: true,
+    dead: true,
     speed: 1,
+    healthy: 100,
+    infected: 1,
     covid: {
         contact: 0.05,
         dying: 0.1
@@ -34,5 +35,6 @@ catch(e) {
 export {
   width,
   height,
-  settings
+  settings,
+  defaultSettings
 }

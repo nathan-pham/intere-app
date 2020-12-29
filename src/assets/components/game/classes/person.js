@@ -4,9 +4,11 @@ import generate from "../libs/name.js"
 
 const { colors, covid, speed } = settings
 
+let _height = height - 50
+
 class Person {
   x = random(10, width - 10)
-  y = random(10, height - 10)
+  y = random(10, _height - 10)
   r = 10
   color = colors.healthy
   name = generate()
@@ -45,7 +47,7 @@ class Person {
       if(Math.random() <= covid.dying) {
         this.color = colors.deceased
       }
-    }, (random(10, 15) * 1000) - (speed / 3))
+    }, (random(10, 15) * 1000) - (speed / 2))
   }
 
   collision(people) {
@@ -68,7 +70,7 @@ class Person {
     if(this.x >= width - this.r || this.x < this.r)	{
 			this.vector.x *= -1
 		}
-		if(this.y >= height - this.r || this.y < this.r) {
+		if(this.y >= _height - this.r || this.y < this.r) {
 			this.vector.y *= -1		 
 		}
   }

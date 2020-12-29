@@ -40,7 +40,7 @@ h2.title {
     font-size: 1.25rem;
 }
 
-.default-button:active {
+button:active {
     filter: brightness(0.9);
 }
 
