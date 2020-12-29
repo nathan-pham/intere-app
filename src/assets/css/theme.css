@@ -1,0 +1,29 @@
+.primary-color {
+    color: var(--primary);
+}
+
+.primary-background {
+    background-color: var(--primary);
+}
+
+.secondary-color {
+    color: var(--secondary);
+}
+
+.secondary-background {
+    background-color: var(--secondary);
+}
+
+.default-button {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.default-button:active {
+    filter: brightness(0.9);
+}

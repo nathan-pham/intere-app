@@ -1,0 +1,17 @@
+:root {
+    --primary: #63c8f2;
+    --secondary: #6a7275;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}

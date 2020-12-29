@@ -1,0 +1,24 @@
+#root-index {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 55rem;
+    text-align: center;  
+    min-height: 100vh; 
+    user-select: none;
+}
+
+#root-index .logo {
+    color: var(--primary);
+    font-size: 7rem;
+}
+
+#root-index h1 {
+    margin: 2rem 0;
+}
+
+#root-index .play {
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.5rem;
+}
