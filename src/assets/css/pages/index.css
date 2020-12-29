@@ -13,7 +13,8 @@
 }
 
 #root-index h1 {
-    margin: 2rem 0;
+    font-size: 4rem;
+    margin: 1rem 0 0 0;
 }
 
 #root-index .play {
