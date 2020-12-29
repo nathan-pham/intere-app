@@ -13,7 +13,7 @@ import Game from "./assets/pages/game"
 
 import "./assets/css/pages/index.css"
 import "./assets/css/pages/about.css"
-
+import "./assets/css/pages/settings.css"
 import "./assets/css/globals.css"
 import "./assets/css/layout.css"
 import "./assets/css/theme.css"
