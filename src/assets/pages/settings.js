@@ -69,7 +69,7 @@ const Settings = () => {
             </section>
             <h2 className="primary-color title">Privacy</h2>
             <section className="text">
-                <p>This is an offline app; data is never shared with a server or another provider. Settings persist in your local storage and will disappear if you delete this app.</p>
+                <p>This app can be used offline. Data is never collected or shared. Settings only persist in your local storage and will disappear if you delete this app.</p>
             </section>
         </div>
     )

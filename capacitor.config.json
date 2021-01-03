@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.straze",
-  "appName": "Straze",
+  "appId": "io.ionic.intere",
+  "appName": "Intere",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",

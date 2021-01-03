@@ -36,7 +36,7 @@ class Graph {
   render(ctx) {
     for(let x = 0; x < this.lines.length; x++) {
       const line = this.lines[x]
-
+      
       // healthy
       ctx.beginPath()
       ctx.rect(x, height - 50, 1, 50)
